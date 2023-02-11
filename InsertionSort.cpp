@@ -23,6 +23,7 @@ void InsertionSort::insertionSort(int arr[], int n)
 	}
 }
 
+//Print array function to output to console.
 void InsertionSort::printArray(int arr[], int n)
 {
 	for (int i = 0; i < n; i++)
