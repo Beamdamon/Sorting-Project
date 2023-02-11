@@ -23,11 +23,9 @@ void InsertionSort::insertionSort(int arr[], int n)
 	}
 }
 
-void printArray(int arr[], int size)
+void InsertionSort::printArray(int arr[], int n)
 {
-	int i;
-	
-	for (i = 0; i < size; i++)
+	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << endl;
 	}
