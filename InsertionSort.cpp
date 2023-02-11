@@ -1,9 +1,13 @@
 #include "InsertionSort.h"
+#include <iostream>
+
+using namespace std;
 
 void InsertionSort::insertionSort(int arr[], int n)
 {
 	int i, j, key;
 	
+	//Inner and outer loops to sort the array.
 	for (i = 1; i < n; i++)
 	{
 		
@@ -16,5 +20,15 @@ void InsertionSort::insertionSort(int arr[], int n)
 			j--;
 		}
 		arr[j + 1] = key;
+	}
+}
+
+void printArray(int arr[], int size)
+{
+	int i;
+	
+	for (i = 0; i < size; i++)
+	{
+		cout << arr[i] << endl;
 	}
 }
